@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/core/types"
+	"github.com/wired-project/go-wired/p2p"
+	"github.com/wired-project/go-wired/rlp"
 	"gopkg.in/fatih/set.v0"
 )
 

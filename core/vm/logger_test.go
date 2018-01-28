@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/params"
 )
 
 type dummyContractRef struct {

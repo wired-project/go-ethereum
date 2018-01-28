@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wired-project/go-wired/params"
 )
 
 func TestTransaction(t *testing.T) {

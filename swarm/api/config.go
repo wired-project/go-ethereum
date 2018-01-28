@@ -22,14 +22,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/ens"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/services/swap"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/contracts/ens"
+	"github.com/wired-project/go-wired/crypto"
+	"github.com/wired-project/go-wired/log"
+	"github.com/wired-project/go-wired/node"
+	"github.com/wired-project/go-wired/swarm/network"
+	"github.com/wired-project/go-wired/swarm/services/swap"
+	"github.com/wired-project/go-wired/swarm/storage"
 )
 
 const (

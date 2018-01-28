@@ -23,12 +23,12 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/core/types"
+	"github.com/wired-project/go-wired/crypto"
+	"github.com/wired-project/go-wired/log"
+	"github.com/wired-project/go-wired/rlp"
+	"github.com/wired-project/go-wired/trie"
 )
 
 type revision struct {

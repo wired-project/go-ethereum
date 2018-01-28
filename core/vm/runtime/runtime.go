@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/core/state"
+	"github.com/wired-project/go-wired/core/vm"
+	"github.com/wired-project/go-wired/crypto"
+	"github.com/wired-project/go-wired/ethdb"
+	"github.com/wired-project/go-wired/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

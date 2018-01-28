@@ -21,11 +21,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/core"
+	"github.com/wired-project/go-wired/ethdb"
+	"github.com/wired-project/go-wired/log"
+	"github.com/wired-project/go-wired/rlp"
 )
 
 var deduplicateData = []byte("dbUpgrade_20170714deduplicateData")

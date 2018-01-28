@@ -26,13 +26,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/core/types"
+	"github.com/wired-project/go-wired/eth"
+	"github.com/wired-project/go-wired/les/flowcontrol"
+	"github.com/wired-project/go-wired/light"
+	"github.com/wired-project/go-wired/p2p"
+	"github.com/wired-project/go-wired/rlp"
 )
 
 var (

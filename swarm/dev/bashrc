@@ -1,4 +1,4 @@
-export ROOT="${GOPATH}/src/github.com/ethereum/go-ethereum"
+export ROOT="${GOPATH}/src/github.com/wired-project/go-wired"
 export PATH="${ROOT}/swarm/dev/bin:${PATH}"
 
 cd "${ROOT}/swarm/dev"

@@ -26,11 +26,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/common/bitutil"
+	"github.com/wired-project/go-wired/crypto"
+	"github.com/wired-project/go-wired/crypto/sha3"
+	"github.com/wired-project/go-wired/log"
 )
 
 const (

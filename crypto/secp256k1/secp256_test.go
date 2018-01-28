@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto/randentropy"
+	"github.com/wired-project/go-wired/common/math"
+	"github.com/wired-project/go-wired/crypto/randentropy"
 )
 
 const TestCount = 1000

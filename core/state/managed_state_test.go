@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/ethdb"
 )
 
 var addr = common.BytesToAddress([]byte("test"))

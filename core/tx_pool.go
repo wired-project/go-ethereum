@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/core/state"
+	"github.com/wired-project/go-wired/core/types"
+	"github.com/wired-project/go-wired/event"
+	"github.com/wired-project/go-wired/log"
+	"github.com/wired-project/go-wired/metrics"
+	"github.com/wired-project/go-wired/params"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

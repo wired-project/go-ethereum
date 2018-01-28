@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/wired-project/go-wired/common"
 )
 
 type journalEntry interface {

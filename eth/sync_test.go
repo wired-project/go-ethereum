@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/wired-project/go-wired/eth/downloader"
+	"github.com/wired-project/go-wired/p2p"
+	"github.com/wired-project/go-wired/p2p/discover"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

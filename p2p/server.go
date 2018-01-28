@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/wired-project/go-wired/common"
+	"github.com/wired-project/go-wired/common/mclock"
+	"github.com/wired-project/go-wired/event"
+	"github.com/wired-project/go-wired/log"
+	"github.com/wired-project/go-wired/p2p/discover"
+	"github.com/wired-project/go-wired/p2p/discv5"
+	"github.com/wired-project/go-wired/p2p/nat"
+	"github.com/wired-project/go-wired/p2p/netutil"
 )
 
 const (

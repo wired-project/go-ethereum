@@ -26,12 +26,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/wired-project/go-wired/core"
+	"github.com/wired-project/go-wired/core/types"
+	"github.com/wired-project/go-wired/internal/debug"
+	"github.com/wired-project/go-wired/log"
+	"github.com/wired-project/go-wired/node"
+	"github.com/wired-project/go-wired/rlp"
 )
 
 const (
